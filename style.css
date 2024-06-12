@@ -42,6 +42,14 @@ nav a {
   text-decoration: none;
 }
 
+a:visited{
+  color: white;
+}
+
+a:hover{
+  color: darkblue;
+}
+
 /* Hero Section Styles */
 .hero {
   background: url('hero-background.jpg') center/cover;
@@ -61,7 +69,7 @@ nav a {
 }
 
 .hero .btn {
-  background: #ff6600;
+  background: #151515;
   color: #fff;
   padding: 0.8rem 1.5rem;
   border: none;
@@ -70,7 +78,7 @@ nav a {
 }
 
 .hero .btn:hover {
-  background: #e65c00;
+  background: #0A0A0A;
 }
 
 /* Games Section Styles */
@@ -112,7 +120,7 @@ nav a {
 }
 
 .game-card .btn {
-  background: #33cc33;
+  background: #151515;
   color: #fff;
   padding: 0.5rem 1rem;
   border: none;
@@ -121,7 +129,7 @@ nav a {
 }
 
 .game-card .btn:hover {
-  background: #00b300;
+  background: #0A0A0A;
 }
 
 /* Footer Styles */
